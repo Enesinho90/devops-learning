@@ -31,3 +31,41 @@ Se deplacer a un dossier
 ## touch
 Creer un fichier
 
+## file
+Identifie le contenue d'un fichier, car sur linux un fichier peut s'apeller "images.jpg" et ne pas etre un jpg. btw c'est une classification, pas une garantie
+'-i' pour afficher les MIME infos
+
+## cat
+Afficher le contenu d'un fichier
+'text1 text2 > text3' : va ecrire le contenue de text1 et ensuite de text2 dans text3
+'> text4' : Interessant aussi quand tu veux écrire un entrée du terminal dans un fichier; ctrl+D pour arreter l'enregistrement du terminal
+'>> text4' : Si tu veut rajouter du texte a la suite sans écraser le fichier. Marche aussi avec un fichier en entrée
+Privilégié less pour les fichiers longs
+
+## less
+Affiche le contenue d'un fichier, préférable pour les longs fichiers
+relou a utilisé, q pour quitter
+
+## history
+Retrace l'historique des commandes envoyé
+!! pour lancer la derniere commande (ou fleche du haut)
+!100 pour lancer la 100eme commande qu'on avait tapé
+!cat pour lancer le dernier cat qu'on avait lancé, si t'avais lancé cat text3 ca va lancer celui la.
+ctrl + r pour faire une recherche sur le nom de la commande qu'on veut, du plus récent au plus ancien, ctrl r pour remonter a un match plus ancien
+
+## clear
+Pour avoir un terminal propre, on voit plus les anciennes sorties de commandes
+
+## cp
+Copier un fichier dans un fichier ou dossier
+avec -r tu peux copier recursivement un dossier dans un dossier
+'-i' pour qu'on te demande avant de modifier un fichier existant
+'-n' pour qu'on t'interdit de modifier un fichier existant
+'-p' pour garder les modes, propriétaire, et timestamp quand possible
+
+## mv
+Renommer ou Deplacer un fichier ou un dossier d'endroit
+
+## mkdir
+Créer un dossier
+
